@@ -23,16 +23,14 @@ const Homepage = ({ openMyComponent }) => {
                         <div className="line"></div>
                         <div className="line"></div>
                     </div>
-                    <div className="clubName" id="osdc">
-                        OSDC
-                    </div>
+                    <div className="clubName" id="osdc">OSDC</div>
                     <div
                         className={`navbar-items ${isMobileMenuOpen ? "mobilemenu" : ""}`}
                     >
                         <Link to='/' onClick={closeMobileMenu}>HOME</Link>
                         <a href="#about" onClick={closeMobileMenu}>ABOUT</a>
                         <a href="#contactus" onClick={closeMobileMenu}>CONTACT US</a>
-                        <a href="#contactus" onClick={closeMobileMenu}>GALLERY</a>
+                        <Link to='/team' onClick={closeMobileMenu}>TEAM</Link>
                         <Link to='/register' onClick={closeMobileMenu}>REGISTER NOW</Link>
                     </div>
                 </div>
