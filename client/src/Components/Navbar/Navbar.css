@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    /* background-color: black; */
     padding:0 3%;
 }
 
@@ -48,8 +48,6 @@
     font-weight: 400;
     padding: 1px 4px;
     transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    position: relative;
-    z-index:1;
 }
 
 .navBar a:hover {
@@ -164,6 +162,10 @@
 
     .hamburger {
         top: 0;
+    }
+
+    .navBar {
+        height: 35px;
     }
 
     .navbar-fixed{
