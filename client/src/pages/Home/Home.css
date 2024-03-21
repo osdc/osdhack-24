@@ -1,0 +1,62 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    background: #0f1014;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.homepage .event {
+    font-size: 6rem;
+    margin: 3%;
+    background: linear-gradient(to right, #092e9e, #065fb9, #0b4ab6);
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    -webkit-text-stroke: 3px white;
+}
+
+.homepage .tagline {
+    width: 60%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.homepage .button {
+    margin-top: 3%;
+    padding: 0 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.homepage .button button {
+    outline: 0;
+    border: 0;
+    font-size: 1.3rem;
+    border: 1px solid white;
+    padding: 0.5% 1%;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10%;
+}
+
+.homepage .register {
+    background-color: blue;
+    color: white;
+    margin: 0 3%;
+}
+
+.homepage .register a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.homepage .button button:hover {
+    transform: scale(1.1);
+}
