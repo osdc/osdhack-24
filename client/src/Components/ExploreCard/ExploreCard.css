@@ -8,9 +8,8 @@
   margin: auto;
   text-align: center;
   font-size: 3.5rem;
-  padding-top: 3%;
   font-weight: 600;
-  padding: 0px 40px;
+  padding:2%;
   width: fit-content;
 }
 
@@ -81,11 +80,12 @@
 
 @media only screen and (max-width:800px) {
   .exploreheading {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
+    padding:5%;
   }
 
   .card {
-    height: 200px;
+    height: 180px;
     width: 150px;
   }
 
@@ -95,8 +95,12 @@
 }
 
 @media only screen and (max-width:420px) {
+  .exploreheading {
+    font-size: 2.4rem;
+  }
+
   .card {
-    height: 140px;
+    height: 130px;
     width: 120px;
   }
 
