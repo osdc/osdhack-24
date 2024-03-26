@@ -260,11 +260,11 @@
 
 @media only screen and (max-width:580px) {
     .aboutheading {
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
 
     .aboutcontent {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin:2% 0;
     }
 
