@@ -3,6 +3,10 @@ import './Home.css'
 import Spline from '@splinetool/react-spline';
 // import { Link } from 'react-router-dom'
 const Home = () => {
+
+  function onMouseDown(e) {
+    console.log(e);
+  }
   return (
     <div className='homepage'>
       {/* <div className="event">OSDHack'24</div>
@@ -16,7 +20,7 @@ const Home = () => {
         </button>
       </div> */}
 
-      <Spline scene="https://prod.spline.design/B4gEdCxzZMigeDFK/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/B4gEdCxzZMigeDFK/scene.splinecode" onMouseDown={onMouseDown} />
 
     </div>
   )

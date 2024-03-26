@@ -12,13 +12,16 @@
 
 .codcontent div {
     margin-top: 2%;
+    background-color: rgba(22, 77, 124, 0.5);
+    padding:1% 2%;
+    border-radius: 5%;
 }
 
 .codcontent {
     font-size: 1.3rem;
     width: 80%;
     margin: auto;
-    text-align:justify;
+    /* text-align:justify; */
 }
 
 .codcontent h2 {
