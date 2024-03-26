@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5%;
+    /* padding: 5%; */
     background: #0f1014;
     color: white;
     position: relative;
@@ -51,6 +51,11 @@
     background-color: blue;
     color: white;
     margin: 0 3%;
+}
+
+.cod a{
+    text-decoration:underline;
+    color:black;
 }
 
 .homepage .register a {

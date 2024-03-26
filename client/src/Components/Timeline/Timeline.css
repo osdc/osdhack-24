@@ -169,11 +169,15 @@
         padding:0 10%;
     }
 
+    .left-container,.right-container{
+        left:7%;
+    }
+
     .container img{
-        left: -18%;
+        left: -21%;
     }
     .right-container img{
-        left:-17%;
+        left:-21%;
     } 
     .text-box{
         padding:1%;
