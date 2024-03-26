@@ -1,11 +1,13 @@
 import React from 'react'
 import './Home.css'
 import Spline from '@splinetool/react-spline';
+import { useNavigate } from 'react-router-dom';
 // import { Link } from 'react-router-dom'
 const Home = () => {
-
+  const navigate = useNavigate();
   function onMouseDown(e) {
-    console.log(e);
+    navigate('/team');
+    console.log(e.name)
   }
   return (
     <div className='homepage'>
