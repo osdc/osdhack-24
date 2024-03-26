@@ -3,6 +3,7 @@ import './Footer.css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import {Link} from 'react-router-dom'
 
 function Footer() {
   return (
@@ -11,10 +12,10 @@ function Footer() {
       <div className="footer-links">
           <h3>Quick Links</h3>
           <ul className='quicklinks'>
-            <li><a href="#homesection">Home</a></li>
-            <li><a href="#joust">About</a></li>
-            <li><a href="#contactus">Contact us</a></li>
-            <li><a href="#competition">Register</a></li>
+            <Link to="/">Home</Link>
+            <Link to="/team">Team</Link>
+            <Link to="/gallery">Gallery</Link>
+            <a href="">Register</a>
           </ul>
         </div>
         <div className="footer-info">

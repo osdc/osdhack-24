@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
 .aboutsection {
     display: flex;
     flex-direction: column;
@@ -14,7 +16,7 @@
 }
 
 .aboutcontent {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: justify;
     margin: 2% 4%;
 }
@@ -23,6 +25,8 @@
     background-color: rgba(22, 77, 124, 0.5);
     padding: 10px;
     border-radius: 10px;
+    margin-top:0.5%;
+    font-family: "Sora", sans-serif;
 }
 
 .aboutcontent .register {
@@ -248,6 +252,10 @@
     .aboutcontent .register  {
         margin-top: 6%;
     }
+
+    .para{
+        margin-top:2%;
+    }
 }
 
 @media only screen and (max-width:580px) {
@@ -256,13 +264,18 @@
     }
 
     .aboutcontent {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        margin:2% 0;
     }
 
     .image img {
         height: 120px;
         width: 110px;
         border-radius: 10px;
+    }
+
+    .para{
+        margin-top:4%;
     }
 
 }

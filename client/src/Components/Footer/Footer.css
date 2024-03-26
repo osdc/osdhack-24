@@ -38,19 +38,21 @@
     list-style: none;
     padding: 0;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
-.footer-links .quicklinks li a{
+.footer-links .quicklinks a{
     text-decoration: none;
     color:rgb(240, 237, 237); 
 }
 
-.footer-links .quicklinks li{
+.footer-links .quicklinks{
     text-align: center;
     cursor: pointer;
     margin-top:1%;
 }
 
-.footer-links .quicklinks li:hover{
+.footer-links .quicklinks a:hover{
     background-color:#FFC72C;
     border-radius: 20px;
 }

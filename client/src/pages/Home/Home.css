@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+
 .homepage {
     display: flex;
     justify-content: center;
@@ -23,7 +25,8 @@
 .homepage .tagline {
     width: 60%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-family: "Edu NSW ACT Foundation", cursive;
 }
 
 .homepage .button {
@@ -70,6 +73,7 @@
     .homepage .tagline {
         width: 80%;
         margin-bottom: 5%;
+        font-size: 1.7rem;
     }
 
     .homepage .button button {
@@ -87,7 +91,7 @@
     }
 
     .homepage .tagline {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -97,7 +101,7 @@
     }
 
     .homepage .tagline {
-        font-size: 1rem;
+        font-size: 1.3rem;
         width: 90%;
     }
 }

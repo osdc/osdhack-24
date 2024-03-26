@@ -30,6 +30,11 @@
     background: #4e54c8;
 }
 
+.container p{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
 @keyframes movedown{
     0%{
         opacity: 1;
