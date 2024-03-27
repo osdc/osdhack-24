@@ -5,7 +5,7 @@ import Detail from './Prizedetail'
 const Prizes = () => {
     return (
         <div className='prize'>
-            <div className="heading">PRIZES</div>
+            <h1 className="prizeHeading">&lt; prizes &gt;</h1>
             <div className="prizecontainer">
                 {
                     Detail.map((item, index) => (

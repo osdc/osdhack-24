@@ -1,0 +1,95 @@
+.main {
+    background-color: #060718;
+    display: flex;
+    padding: 0 20%;
+    min-height: 90vh;
+    flex-direction: column;
+    color: white;
+
+    /* border: 2px solid red; */
+}
+
+.aboutHeading {
+    background: #060718;
+    font-size: 3rem;
+    margin: 10vh 0;
+    /* padding: 5vh 0; */
+}
+
+@media (max-width: 768px) {
+    .aboutHeading {
+        font-size: 2rem;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    /* border: 2px solid red; */
+    flex: 1;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    margin: 0 1rem;
+    padding: 2vh 0;
+    position: relative;
+}
+
+.sidebar::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    /* Position the line in the middle of the sidebar */
+    left: 0;
+    width: 100%;
+    /* Extend the line across the entire sidebar */
+    height: 1px;
+    /* Set the height of the line */
+    background-color: grey;
+    /* Color of the line */
+    z-index: -1;
+    /* Ensure the line is behind the text */
+}
+
+.sidebar p {
+    color: grey;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+}
+
+.about {
+    flex: 4;
+}
+
+.about>p:first-child {
+    margin-bottom: 5vh;
+}
+
+
+
+.register {
+    color: cyan;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15vh 0;
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .register {
+        font-size: 1.5rem;
+    }
+}

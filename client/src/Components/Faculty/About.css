@@ -1,0 +1,31 @@
+.faculty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #060718;
+    color: white;
+    min-height: 50vh;
+    padding-bottom: 20vh;
+}
+
+.heading2{
+    font-size: 3rem;
+    margin: 10vh 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .heading2 {
+        font-size: 1.3rem;
+    }
+}
+
+.facultycontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 5vw;
+}
