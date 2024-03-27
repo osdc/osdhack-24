@@ -1,0 +1,57 @@
+.eventsMain{
+    /* border: 2px solid red; */
+    background-color: #060718;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    min-height: 90vh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2rem;
+    }
+    
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+.bubble>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+@media (max-width: 768px){
+    .bubble{
+        flex-direction: column;
+    }
+    
+}
+.bubble img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: white;
+    margin: 2rem;
+
+}
+
+.bubble p{
+    color: cyan;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
