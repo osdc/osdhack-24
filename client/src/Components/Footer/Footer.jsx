@@ -21,8 +21,7 @@ function Footer() {
         <div className="footer-info">
           <h3>Contact Info</h3>
           <div>
-            <p>Student Coordinator:<br />Shivang Sharma</p>
-            <p>osdcjiit@*********</p>
+            <p>osdcjiit@gmail.com</p>
           </div>
         </div>
         <div className="footer-social">

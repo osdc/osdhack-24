@@ -5,7 +5,7 @@
 }
 
 .footer{
-    background: #0f1014;  
+    background: linear-gradient(to right, rgb(20, 20, 36), rgb(1, 1, 44));  
     /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  */
 }
 
@@ -77,8 +77,8 @@
 }
 
 .footer-bottom{
-    background-color: #00FFF8;
-    color:black;
+    background: linear-gradient(to right, rgb(20, 20, 36), rgb(1, 1, 44));
+    color:white;
     text-align: center;
     font-size: 1.05rem;
     padding:0.6%;
