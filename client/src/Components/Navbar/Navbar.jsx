@@ -32,7 +32,7 @@ const Homepage = ({ openMyComponent }) => {
                         <Link to='/' onClick={closeMobileMenu}>&lt; home &gt;</Link>
                         <Link to='/team' onClick={closeMobileMenu}>&lt; team &gt;</Link>
                         <Link to='/gallery' onClick={closeMobileMenu}>&lt; gallery &gt;</Link>
-                        <Link to='/register' onClick={closeMobileMenu}>&lt; register now &gt;</Link>
+                        <a href='' onClick={closeMobileMenu}>&lt; register now &gt;</a>
                     </div>
                 </div>
             </div>

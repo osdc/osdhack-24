@@ -26,11 +26,11 @@ const ExploreCard = () => {
         </div>
 
         <div className="card">
-          <Link to="/register">
+          <a href="">
             <div className="content">
               <h2 className="title registertitle">REGISTER</h2>
             </div>
-          </Link>
+          </a>
         </div>
     </div>
     </div>

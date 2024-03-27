@@ -19,7 +19,7 @@ const About = () => {
                     </div>
 
                     <div className="register">
-                        <Link to='/register' className='registertext'>Register Now</Link>
+                        <a href='' className='registertext'>Register Now</a>
                     </div>
                 </div>
                 <div className="aboutimages">
