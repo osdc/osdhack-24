@@ -3,6 +3,7 @@ import About from '../Components/About/About';
 import Timeline from '../Components/Timeline/Timeline';
 import Home from './Home/Home';
 import Prizes from '../Components/Prizes/Prizes';
+import Faculty from '../Components/Faculty/Faculty';
 
 const Layout = () => {
     return (
@@ -12,6 +13,7 @@ const Layout = () => {
             <Prizes/>
             <ExploreCard />
             <Timeline />
+            <Faculty/>
         </>
     )
 }
