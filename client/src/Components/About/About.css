@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-
 .aboutsection {
     display: flex;
     flex-direction: column;
@@ -17,7 +15,7 @@
 .aboutcontent {
     font-size: 1.3rem;
     text-align: justify;
-    margin: 2% 4%;
+    margin: 2% 10%;
 }
 
 .aboutcontent .para {
@@ -25,7 +23,6 @@
     padding: 10px;
     border-radius: 10px;
     margin-top:0.5%;
-    font-family: "Sora", sans-serif;
 }
 
 .aboutcontent .register {

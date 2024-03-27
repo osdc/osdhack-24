@@ -7,7 +7,7 @@ const Home = () => {
   const navigate = useNavigate();
   function onMouseDown(e) {
     navigate('/team');
-    console.log(e.name)
+    const name = e.target.name;
   }
   return (
     <div className='homepage'>
@@ -22,7 +22,10 @@ const Home = () => {
         </button>
       </div> */}
 
-      <Spline scene="https://prod.spline.design/B4gEdCxzZMigeDFK/scene.splinecode" onMouseDown={onMouseDown} />
+      <Spline className='spline' scene="https://prod.spline.design/B4gEdCxzZMigeDFK/scene.splinecode" onMouseDown={onMouseDown} />
+      <div className="text-behind">
+        <img className='osdhacklogo' src="/images/osdhack24.png" alt="" />
+      </div>
 
     </div>
   )

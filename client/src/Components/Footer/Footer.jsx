@@ -28,9 +28,9 @@ function Footer() {
         <div className="footer-social">
           <h3>Find Us here</h3>
           <div className="social-icons">
-            <a href=""><FaGithub /></a>
-            <a href=""><FaLinkedin /></a>
-            <a href=""><FaInstagramSquare /></a>
+            <a href="https://github.com/osdc"><FaGithub /></a>
+            <a href="https://www.linkedin.com/company/osdcjiit/about/"><FaLinkedin /></a>
+            <a href="https://www.instagram.com/osdcjiit/"><FaInstagramSquare /></a>
           </div>
         </div>
       </div>

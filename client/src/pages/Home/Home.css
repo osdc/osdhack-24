@@ -12,6 +12,19 @@
     z-index: 1;
 }
 
+.text-behind {
+    position: absolute;
+    top:0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .osdhacklogo{
+    width:12%;
+    margin-top:2%;
+  }
+
 .homepage .event {
     font-size: 6rem;
     margin: 3%;
@@ -69,10 +82,20 @@
     transform: scale(1.1);
 }
 
+@media only screen and (max-width:1000px){
+    .text-behind{
+        font-size: 6rem;
+    }
+}
+
 @media only screen and (max-width:750px){
     .homepage .event{
         font-size: 5rem;
     -webkit-text-stroke: 1px white;
+    }
+
+    .text-behind{
+        font-size: 5rem;
     }
 
     .homepage .tagline {
@@ -95,6 +118,10 @@
         font-size: 4rem;
     }
 
+    .text-behind{
+        font-size: 4rem;
+    }
+
     .homepage .tagline {
         font-size: 1.5rem;
     }
@@ -103,6 +130,11 @@
 @media only screen and (max-width:450px){
     .homepage .event{
         font-size: 3rem;
+    }
+
+    .text-behind{
+        font-size: 3rem;
+        margin-top:3%;
     }
 
     .homepage .tagline {

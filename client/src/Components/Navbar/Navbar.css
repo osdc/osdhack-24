@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@500&family=Rubik:wght@300;400;500;700&family=Ysabeau+SC:wght@300&display=swap');
-
-*{
-    font-family: 'Poppins', sans-serif;
-}
 
 .hamburger {
     position: absolute;
@@ -20,9 +15,9 @@
 
 .navBar {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    background: #0f1014;
+    background:#0f1014;
     padding:0 3%;
 }
 
@@ -31,8 +26,8 @@
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
-    color: #FFC72C;
-}
+    color:#00FFF8;
+}   
 
 .navbar-items {
     display: flex;
@@ -41,24 +36,20 @@
 }
 
 .navBar a {
-    color: #FFC72C;
+    color:white;
     text-decoration: none;
-    font-size: 1rem;
-    margin: 0 10px;
+    font-size: 1.25rem;
+    margin: 1% 40px;
     font-weight: 400;
-    padding: 1px 4px;
     transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     position: relative;
     z-index:1;
 }
 
-.navBar a:hover {
-    background-color: #495E57;
-    transform: scale(1.05);
-    border-radius: 13px;
+.navBar .navbar-items  a:hover {
+    transform: scale(1.1);
     color: white;
     font-weight: 400;
-    padding: 1px 8px;
     text-decoration: none;
 }
 
@@ -81,13 +72,9 @@
 
 
 @media only screen and (max-width:1160px) {
-    .navBar a {
+    .navBar .navbar-items a {
         margin: 0 6px;
         font-size: 1.1rem;
-    }
-
-    .navBar {
-        justify-content: space-around;
     }
 }
 
@@ -117,10 +104,9 @@
 
     .navBar .clubName {
         position: absolute;
-        top: 0;
+        top: 0%;
         left: 6%;
         height: 50px;
-        color: #FFC72C;
     }
 
     .navbar-items {
@@ -135,10 +121,10 @@
     }
 
     .mobilemenu {
-        margin-top: 80%;
+        margin-top: 50%;
     }
 
-    .navBar a {
+    .navBar .navbar-items a {
         margin-top: 12%;
         font-weight: 500;
     }
@@ -163,7 +149,7 @@
     }
 
     .hamburger {
-        top: 0;
+        top: 1%;
     }
 
     .navbar-fixed{
@@ -172,6 +158,9 @@
 
     .navBar .clubName {
         font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
-
+                                                 

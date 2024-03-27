@@ -53,7 +53,7 @@
 }
 
 .footer-links .quicklinks a:hover{
-    background-color:#FFC72C;
+    background-color:#00FFF8;
     border-radius: 20px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .footer-bottom{
-    background-color: #e1dfba;
+    background-color: #00FFF8;
     color:black;
     text-align: center;
     font-size: 1.05rem;

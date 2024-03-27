@@ -9,7 +9,7 @@ const About = () => {
                 <div className="aboutheading">WHAT IS OSDHACK ?</div>
                 <div className="aboutcontent">
                     <div className="para">
-                    OSDHack’23 was a hybrid hackathon organized by the Open-Source Developers Community of JIIT, Noida. A four-day event dated 21-24 April 2023, which entailed the main hacking event. It was a 48-hour long congregation of like-minded hackers and tech enthusiasts where participants brainstormed and built on their ideas. 
+                    OSDHack’24 was a hybrid hackathon organized by the Open-Source Developers Community of JIIT, Noida. A three-day event dated 19-21 April 2023, which entailed the main hacking event. It was a 48-hour long congregation of like-minded hackers and tech enthusiasts where participants brainstormed and built on their ideas. 
                     </div>
                     <div className="para">
                     The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc. The offline hackathon was organized by the Open-Source Developers Community (OSDC) of Jaypee Institute of Information Technology (JIIT), Noida. The highly­anticipated event provided a unique platform for tech enthusiasts and hackers to come together and showcase their talents. 
