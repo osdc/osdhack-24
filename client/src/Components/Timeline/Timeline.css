@@ -214,8 +214,7 @@
   .ba-grid{
     position: relative;
     z-index: 1;
-    background: linear-gradient(to right, rgb(20, 20, 36), rgb(1, 1, 44));
-    /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  */
+    background:rgb(21, 21, 31);
   }
   
   

@@ -9,13 +9,13 @@ const About = () => {
                 <div className="aboutheading">WHAT IS OSDHACK ?</div>
                 <div className="aboutcontent">
                     <div className="para">
-                    OSDHack’24 was a hybrid hackathon organized by the Open-Source Developers Community of JIIT, Noida. A three-day event dated 19-21 April 2023, which entailed the main hacking event. It was a 48-hour long congregation of like-minded hackers and tech enthusiasts where participants brainstormed and built on their ideas. 
+                    OSDHack’24 will be a hybrid hackathon organized by the Open-Source Developers Community of JIIT, Noida. It will be a three-day event scheduled for 19-21 April 2023, which will entail the main hacking event. It will be a 48-hour long congregation of like-minded hackers and tech enthusiasts where participants will brainstorm and build on their ideas. 
                     </div>
                     <div className="para">
-                    The online hackathon was organized with Unstop as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc. The offline hackathon was organized by the Open-Source Developers Community (OSDC) of Jaypee Institute of Information Technology (JIIT), Noida. The highly­anticipated event provided a unique platform for tech enthusiasts and hackers to come together and showcase their talents. 
+                    The online hackathon, organized in partnership with Unstop, is expected to draw over 450 participants from across India, representing prestigious institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW, and more. Meanwhile, the offline hackathon, managed by the Open-Source Developers Community (OSDC) of Jaypee Institute of Information Technology (JIIT), Noida, will provide an eagerly awaited opportunity for tech enthusiasts and hackers to showcase their skills. 
                     </div>
                     <div className="para">
-                    The hackathon spanned over 48 hours where participants were invited to brainstorm and build on their innovative ideas. Participation of 500+ students and 90+ teams in the offline version & of 400+ students and 90+ teams in the online version of the event was observed and the opening ceremony was honored by distinguished dignitaries including Vice Chancellor Prof. B.R. Mehta, HOD (CSE&IT) Prof. Vikas Saxena, Faculty Coordinator-OSDC Prof. Manish Kumar Thakur.
+                    During the hackathon's 48-hour duration, participants will engage in brainstorming sessions and work on innovative projects. The offline version anticipates the participation of over 500 students and 90 teams, while the online counterpart expects 400+ students and 90+ teams. Notable dignitaries, including Vice Chancellor Prof. B.R. Mehta, HOD (CSE&IT) Prof. Vikas Saxena, and Faculty Coordinator-OSDC Prof. Manish Kumar Thakur, will grace the opening ceremony with their presence.
                     </div>
 
                     <div className="register">
