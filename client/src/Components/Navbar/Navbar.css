@@ -1,3 +1,7 @@
+.navbar-fixed{
+ padding: 2vh 0;
+ background-color: #060718;
+}
 
 .hamburger {
     position: absolute;
@@ -5,6 +9,8 @@
     right: 6%;
     display: none;
 }
+
+
 
 .hamburger .line {
     width: 25px;
@@ -17,7 +23,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    background:rgb(1, 1, 26);
+    background:#060718;
     padding:0 3%;
 }
 
@@ -44,6 +50,14 @@
     transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     position: relative;
     z-index:1;
+}
+
+/* .navBar a:nth-child(1){
+    margin-right: 8vw;
+} */
+
+.navBar {
+    padding-right: 8vw;
 }
 
 .navBar .navbar-items  a:hover {

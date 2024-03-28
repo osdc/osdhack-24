@@ -4,10 +4,18 @@
     box-sizing: content-box;
 }
 
+.footerLinks a{
+    text-decoration: none;
+    color: white;
+    
+}
+
 .footer{
     background:rgb(1, 1, 26); 
     /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  */
 }
+
+
 
 .footer-container{
     display: flex;
@@ -16,7 +24,7 @@
 }
 
 .footer-container h3{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 1px;
     text-align: center;
     font-weight: 500;
@@ -64,7 +72,7 @@
 
 
 .footer-social .social-icons{
-    margin-top:15%;
+    /* margin-top:15%; */
 }
 
 .social-icons a{
@@ -89,6 +97,8 @@
     margin-bottom: 0;
 }
 
+
+
 @media only screen and (max-width:950px){
     .footer-container{
         flex-direction: column;
@@ -107,4 +117,17 @@
     .footer-social a{
         margin-left: 1%;
     }
+}
+
+.footer-heading{
+    color: cyan;
+    
+}
+
+.email{
+    transition: transform 0.5s ease;
+}
+
+.email:hover{
+    transform: scale(1.2);
 }

@@ -1,34 +1,15 @@
 const Detail = [
     {
-        image:'/images/1.png',
-        name:'mkt',
-        role:'fgjkf',
+        image:'/images/mkt.jpg',
+        name:'Manish Kumar Thakur',
+        role:'Faculty Coordinator(OSDC)',
     },
     {
-        image:'/images/1.png',
-        name:'mkt',
-        role:'fgjkf',
-    },
-    {
-        image:'/images/1.png',
-        name:'mkt',
-        role:'fgjkf',
-    },
-    {
-        image:'/images/1.png',
-        name:'mkt',
-        role:'fgjkf',
-    },
-    {
-        image:'/images/1.png',
-        name:'mkt',
-        role:'fgjkf',
-    },
-    {
-        image:'/images/1.png',
-        name:'mkt',
-        role:'fgjkf',
+        image:'/images/ankita.jpeg',
+        name:'Ankita Wadhwa',
+        role:'Assitant Professor(Senior Grade)',
     }
+    
 ]
 
 export default Detail;  
