@@ -29,9 +29,9 @@ const Homepage = ({ openMyComponent }) => {
                     <div
                         className={`navbar-items ${isMobileMenuOpen ? "mobilemenu" : ""}`}
                     >
-                        <Link to='/' onClick={closeMobileMenu}>&lt; home &gt;</Link>
-                        <Link to='/gallery' onClick={closeMobileMenu}>&lt; gallery &gt;</Link>
-                        <a href='/' onClick={closeMobileMenu}>&lt; register now &gt;</a>
+                        <Link to='/coc' onClick={closeMobileMenu}>&lt; code of conduct &gt;</Link>
+                        <Link to='/gallery' className="galleryNav" onClick={closeMobileMenu}>&lt; gallery &gt;</Link>
+                        <a href='/' onClick={closeMobileMenu}>&lt; register &gt;</a>
                     </div>
                 </div>
             </div>

@@ -45,9 +45,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: cyan;
+    /* background-color: cyan; */
     color: black;
     border-radius: 1rem;
+    color: white;
 }
 
 @media (max-width: 768px) {
@@ -61,7 +62,9 @@
 .name{
     font-size: 1.3rem;
     margin: 1rem 0;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-family: "Poppins", 'comic-sans';
+    color: cyan;
 }
 
 .posiiton{

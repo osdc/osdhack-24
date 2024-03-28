@@ -8,6 +8,10 @@
     padding: 0 10vw;
 }
 
+.timeline h1{
+    text-align: center;
+}
+
 .timelineHeadline{
     font-size: 3rem;
     margin: 15vh 0;
@@ -50,11 +54,14 @@
 }
 
 .time>div>.right{
+    /* border: 2px solid red; */
     flex:3;
     /* padding: 0 10vw; */
     display: flex;
     justify-content: start;
     align-items: center;
+    padding-bottom: 2rem;
+    /* width: 20vw; */
 }
 
 .time>div>.right>p{

@@ -1,57 +1,57 @@
 const Detail = [
     {
         image:'/images/1.png',
-        position:'1ND Prize',
+        position:'< 1st prize >',
         price:'17000 INR'       
     },
     {
         image:'/images/2.png',
-        position:'2ND Prize',
+        position:'< 2nd prize >',
         price:'14000 INR'       
     },
     {
         image:'/images/3.png',
-        position:'3ND Prize',
+        position:'< 3rd prize >',
         price:'10000 INR'       
     },
     {
         image:'/images/trophy.png',
-        position:'All First Year Team',
+        position:'< all first year team >',
         price:'2500 INR'       
     },
     {
         image:'/images/trophy.png',
-        position:'All Girls Team',
+        position:'< all girl team >',
         price:'2500 INR'       
     },
     {
         image:'/images/trophy.png',
-        position:'All JIIT Team',
+        position:'< all JIIT team >',
         price:'5000 INR'       
     },
     {
         image:'/images/trophy.png',
-        position:'Track 1',
+        position:'< track 1 >',
         price:'3000 INR' 
     },
     {
         image:'/images/trophy.png',
-        position:'Track 2',
+        position:'< track 2 >',
         price:'3000 INR' 
     },
     {
         image:'/images/trophy.png',
-        position:'Track 3',
+        position:'< track 3 >',
         price:'3000 INR' 
     },
     {
         image:'/images/trophy.png',
-        position:'CTF',
+        position:'< ctf >',
         price:'5000 INR' 
     },
     {
         image:'/images/trophy.png',
-        position:'Mystery Event',
+        position:'< mystery event',
         price:'5000 INR' 
     },
 ]

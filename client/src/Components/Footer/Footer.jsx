@@ -10,22 +10,17 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
       <div className="footer-links">
-          <h3>Quick Links</h3>
-          <ul className='quicklinks'>
-            <Link to="/">Home</Link>
-            <Link to="/team">Team</Link>
-            <Link to="/gallery">Gallery</Link>
-            <a href="">Register</a>
-          </ul>
+          <h3 className='footer-heading'>&lt;quick links&gt;</h3>
+          <p className='footerLinks'><a href="/">home</a> <a href="/gallery">gallery</a> <a href="/">register</a></p>
         </div>
         <div className="footer-info">
-          <h3>Contact Info</h3>
+          <h3 className='footer-heading'>&lt;contact info&gt;</h3>
           <div>
-            <p>osdcjiit@gmail.com</p>
+            <p className='email'>osdcjiit@gmail.com</p>
           </div>
         </div>
         <div className="footer-social">
-          <h3>Find Us here</h3>
+          <h3 className='footer-heading'>&lt;find us here&gt;</h3>
           <div className="social-icons">
             <a href="https://github.com/osdc"><FaGithub /></a>
             <a href="https://www.linkedin.com/company/osdcjiit/about/"><FaLinkedin /></a>
