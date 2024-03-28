@@ -6,12 +6,20 @@
     flex-direction: column;
     justify-content: center;
     width: 100vw;
-    min-height: 90vh;
+    min-height: 80vh;
 }
-h1{
+.eventsMain h1{
     display: flex;
     justify-content: center;
     font-size: 3rem;
+    margin-bottom: 10vh;
+}
+
+.comingSoon{
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
 }
 
 @media (max-width: 768px){

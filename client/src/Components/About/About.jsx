@@ -13,14 +13,15 @@ const About = () => {
                     <p>&lt; end &gt;</p>
                 </div>
                 <div className='about'>
-                    <p >The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc. The offline hackathon was organized by the Open-Source Developers Community (OSDC) of Jaypee Institute of Information Technology (JIIT), Noida.</p>
+                    <p >OSDHack’24 is a hybrid hackathon organized by the Open-Source Developers Community of JIIT, Noida. Scheduled for April 19-21, 2023, this three-day event will feature the main hacking session. Over the course of 48 hours, participants will engage in a congregation of like-minded hackers and tech enthusiasts, brainstorming and bringing their ideas to life.
+                    </p>
 
-                    <p>The highly­anticipated event provided a unique platform for tech enthusiasts and hackers to come together and showcase their talents.
-                        The hackathon spanned over 48 hours where participants were invited to brainstorm and build on their innovative ideas. Participation of 500+ students and 90+ teams in the offline version & of 400+ students and 90+ teams in the online version of the event was observed and the opening ceremony was honored by distinguished dignitaries including Vice Chancellor Prof. B.R. Mehta, HOD (CSE&IT) Prof. Vikas Saxena, Faculty Coordinator-OSDC Prof. Manish Kumar Thakur.
-                        Register Now</p>
+                    <p>During the 48-hour duration of the hackathon, participants will immerse themselves in brainstorming sessions and collaborate on innovative projects. The offline version is poised to attract over 500 students and 90 teams, while its online counterpart expects participation from 400+ students and 90+ teams. The opening ceremony will be graced by notable dignitaries, including Vice Chancellor Prof. B.R. Mehta, HOD (CSE&IT) Prof. Vikas Saxena, and Faculty Coordinator-OSDC Prof. Manish Kumar Thakur.
+
+                    </p>
                 </div>
             </div>
-    
+
             <h2 className='register'>&lt;  register &gt;</h2>
         </div>
     )

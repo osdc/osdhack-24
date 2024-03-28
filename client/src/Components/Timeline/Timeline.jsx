@@ -13,31 +13,30 @@ const Timeline = () => {
                             <div className='right'>
                                 <p>.......</p>
                                 <div>
-                                    <h4>&lt; heading &gt;</h4>
-                                    <p>The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc.
-                                        Register Now</p>
+                                    <h4>&lt; 19th April &gt;</h4>
+                                    <p>5pm - Opening Ceremony and Speaker Session</p>
+                                    <p>6pm - First Evaluation and hacking period begins</p>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <p>Day 1</p>
+                            <p>Day 2</p>
                             <div className='right'>
                                 <p>.......</p>
                                 <div>
-                                    <h4>&lt; heading &gt;</h4>
-                                    <p>The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc.
-                                        Register Now</p>
+                                    <h4>&lt; 20th April &gt;</h4>
+                                    <p>1pm - Mid Evaluations</p>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <p>Day 1</p>
+                            <p>Day 3</p>
                             <div className='right'>
                                 <p>.......</p>
                                 <div>
-                                    <h4>&lt; heading &gt;</h4>
-                                    <p>The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc.
-                                        Register Now</p>
+                                    <h4>&lt; 21st April &gt;</h4>
+                                    <p>9am - Final Evaluations</p>
+                                    <p>6pm - Winner's Announcement</p>
                                 </div>
                             </div>
                         </div>
@@ -45,35 +44,27 @@ const Timeline = () => {
                     <div className='timeSmall'>
                         <div>
                             <h4>Day 1</h4>
-                            <h5>&lt; haeding &gt;</h5>
-                            <p>
-                                The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc.
-                                Register Now
+                            <h5>&lt; 19th April &gt;</h5>
+                            <p>5pm - Opening Ceremony and Speaker Session</p>
+                            <p>6pm - First Evaluation and hacking period begins</p>
+                        </div>
+                        <div>
+                            <h4>Day 2</h4>
+                            <h5>&lt; 20th April &gt;</h5>
+                            <p>1pm - Mid Evaluations
+                            1pm - Mid Evaluations
+                            1pm - Mid Evaluations
+                            1pm - Mid Evaluations1pm - Mid Evaluations
                             </p>
                         </div>
                         <div>
-                            <h4>Day 1</h4>
-                            <h5>&lt; haeding &gt;</h5>
-                            <p>
-                                The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc.
-                                Register Now
-                            </p>
-                        </div>
-                        <div>
-                            <h4>Day 1</h4>
-                            <h5>&lt; haeding &gt;</h5>
-                            <p>
-                                The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc.
-                                Register Now
-                            </p>
-                        </div>
-                        <div>
-                            <h4>Day 1</h4>
-                            <h5>&lt; haeding &gt;</h5>
-                            <p>
-                                The online hackathon was organized with Devfolio as a partner and saw over 450 participants all across India from notable institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW etc.
-                                Register Now
-                            </p>
+                            <h4>Day 3</h4>
+                            <h5>&lt; 21st April &gt;</h5>
+                            <p>9am - Final Evaluations<br></br>6pm - Winner's Announcement
+                            9am - Final Evaluations<br></br>6pm - Winner's Announcement
+                            9am - Final Evaluations<br></br>6pm - Winner's Announcement
+                            9am - Final Evaluations<br></br>6pm - Winner's Announcement</p>
+                                    <p></p>
                         </div>
                     </div>
                 </div>

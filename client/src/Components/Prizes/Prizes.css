@@ -22,7 +22,7 @@
 
 .prizecontainer{
     background:#060718;
-    width:85%;
+    width:80%;
     padding:1%;
     margin:auto;
     margin-top:2%;
@@ -37,6 +37,7 @@
     margin:2% 3%;
     height:250px;
     width:250px;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

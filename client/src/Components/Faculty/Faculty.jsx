@@ -8,12 +8,12 @@ const Faculty = () => {
             <div className="facultycontainer">
                 {
                     Detail.map((item, index) => (
-                        <div className="prizebox" key={index}>
+                        <div className="facultyBox" key={index}>
                             <div className="img">
                                 <img src={item.image} alt="" />
                             </div>
-                            <div className="position">{item.name}</div>
-                            <div className="price">{item.role}</div>
+                            <p className="name">{item.name}</p>
+                            <p className="posiiton">{item.role}</p>
                         </div>
                     ))
                 }

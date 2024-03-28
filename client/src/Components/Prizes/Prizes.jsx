@@ -13,8 +13,8 @@ const Prizes = () => {
                             <div className="img">
                                 <img src={item.image} alt="" />
                             </div>
-                            <div className="position">{item.position}</div>
-                            <div className="price">{item.price}</div>
+                            <p className="position">{item.position}</p>
+                            <p className="price">{item.price}</p>
                         </div>
                     ))
                 }
