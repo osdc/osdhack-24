@@ -10,6 +10,21 @@
     
 }
 
+@media (max-width: 768px){
+    .footerLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email, .footerLinks, .social-icons{
+        padding: 1vh 0;
+    }
+    .footer-bottom{
+        padding: 2vh 0;
+    }
+}
+
 .footer{
     background:rgb(1, 1, 26); 
     /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  */

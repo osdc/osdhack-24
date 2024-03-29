@@ -49,6 +49,12 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .prizebox {
+        margin:2rem 0;
+    }
+}
+
 .img{
     margin: 5rem 0;
     max-width: 70%;
@@ -76,5 +82,12 @@ img{
 
 .position{
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    
+    .position, .price {
+        font-size: 1.2rem;
+    }
 }
 
