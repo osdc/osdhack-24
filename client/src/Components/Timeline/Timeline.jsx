@@ -52,19 +52,14 @@ const Timeline = () => {
                             <h4>Day 2</h4>
                             <h5>&lt; 20th April &gt;</h5>
                             <p>1pm - Mid Evaluations
-                            1pm - Mid Evaluations
-                            1pm - Mid Evaluations
-                            1pm - Mid Evaluations1pm - Mid Evaluations
+                            
                             </p>
                         </div>
                         <div>
                             <h4>Day 3</h4>
                             <h5>&lt; 21st April &gt;</h5>
                             <p>9am - Final Evaluations<br></br>6pm - Winner's Announcement
-                            9am - Final Evaluations<br></br>6pm - Winner's Announcement
-                            9am - Final Evaluations<br></br>6pm - Winner's Announcement
-                            9am - Final Evaluations<br></br>6pm - Winner's Announcement</p>
-                                    <p></p>
+                            </p>
                         </div>
                     </div>
                 </div>
