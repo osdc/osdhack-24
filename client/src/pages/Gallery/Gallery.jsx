@@ -3,7 +3,7 @@ import './Gallery.css'
 const Gallery = () => {
     return (
        <div className='gallery'>
-        <div className='GalleryHeading'>&lt; gallery &gt;</div>
+        <div className='GalleryHeading'>GALLERY</div>
         <div class="parent-container">
             <div class="child-container" id="one">
                 <img src="https://source.unsplash.com/s4uCgs7qVQc" width="100%" height="auto" />

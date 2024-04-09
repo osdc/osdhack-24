@@ -1,15 +1,9 @@
 const Detail = [
     {
-        image:'/images/mkt.jpg',
-        name:'Manish Kumar Thakur',
-        role:'Faculty Coordinator(OSDC)',
+        image:'/images/Dr.Manish Kumar Thakur.jpg',
+        name:'PROF. MANISH K. THAKUR',
+        role:'FACULTY COORDINATOR (OSDC)',
     },
-    {
-        image:'/images/ankita.jpeg',
-        name:'Ankita Wadhwa',
-        role:'Assitant Professor(Senior Grade)',
-    }
-    
 ]
 
 export default Detail;  

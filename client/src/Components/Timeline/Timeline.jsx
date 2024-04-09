@@ -1,69 +1,92 @@
 import './Timeline.css'
-import logo from '../../assets/exploreProgramme1.png'
+import logo from '../../assets/osdhack24.png'
 const Timeline = () => {
     return (
         <>
-            <div className='timeline'>
-                <h1 className='timelineHeadline'>&lt; timeline &gt;</h1>
-
-                <div className='timeWrap'>
-                    <div className='time'>
-                        <div>
-                            <p>Day 1</p>
-                            <div className='right'>
-                                <p>.......</p>
-                                <div>
-                                    <h4>&lt; 19th April &gt;</h4>
-                                    <p>5pm - Opening Ceremony and Speaker Session</p>
-                                    <p>6pm - First Evaluation and hacking period begins</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p>Day 2</p>
-                            <div className='right'>
-                                <p>.......</p>
-                                <div>
-                                    <h4>&lt; 20th April &gt;</h4>
-                                    <p>1pm - Mid Evaluations</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <p>Day 3</p>
-                            <div className='right'>
-                                <p>.......</p>
-                                <div>
-                                    <h4>&lt; 21st April &gt;</h4>
-                                    <p>9am - Final Evaluations</p>
-                                    <p>6pm - Winner's Announcement</p>
-                                </div>
-                            </div>
-                        </div>
+           <div className="timelinesection grid-bg ba-grid anim">
+            <div className="inner"></div>
+           <div className="timeline-heading">TIMELINE</div>
+            <div className="timeline">
+                <div className="container left-container">
+                    <img src={logo} alt="" />
+                    <div className="text-box">
+                        <h2>19th April 2024</h2>
+                        <p>From 5PM onwards</p>
+                        <p>opening ceremony (Attandance Mandatory) + Speaker Session</p>
+                        <p>Auditorium</p>
+                        <span className='left-container-arrow'></span>
                     </div>
-                    <div className='timeSmall'>
-                        <div>
-                            <h4>Day 1</h4>
-                            <h5>&lt; 19th April &gt;</h5>
-                            <p>5pm - Opening Ceremony and Speaker Session</p>
-                            <p>6pm - First Evaluation and hacking period begins</p>
-                        </div>
-                        <div>
-                            <h4>Day 2</h4>
-                            <h5>&lt; 20th April &gt;</h5>
-                            <p>1pm - Mid Evaluations
-                            
-                            </p>
-                        </div>
-                        <div>
-                            <h4>Day 3</h4>
-                            <h5>&lt; 21st April &gt;</h5>
-                            <p>9am - Final Evaluations<br></br>6pm - Winner's Announcement
-                            </p>
-                        </div>
+                </div>
+                <div className="container right-container">
+                    <img src={logo} alt="" />
+                    <div className="text-box">
+                        <h2>19th April 2024</h2>
+                        <p>From 6PM onwards</p>
+                        <p>Beginning of the Hackathon</p>
+                        <p>online mode</p>
+                        <span className='right-container-arrow'></span>
+                    </div>
+                </div>
+                <div className="container left-container">
+                    <img src={logo} alt="" />
+                    <div className="text-box">
+                        <h2>19th April 2024</h2>
+                        <p>6PM to 9PM</p>
+                        <p>First Round of Evaluation</p>
+                        <p>online mode</p>
+                        <span className='left-container-arrow'></span>
+                    </div>
+                </div>
+                <div className="container right-container">
+                    <img src={logo} alt="" />
+                    <div className="text-box">
+                        <h2>9PM onwards on 19th April - 1PM on 20th April</h2>
+                        <p>Development of the Projects</p>
+                        <p>online mode</p>
+                        <span className='right-container-arrow'></span>
+                    </div>
+                </div>
+                <div className="container left-container">
+                    <img src={logo} alt="" />
+                    <div className="text-box">
+                        <h2>20th April 2024</h2>
+                        <p>1PM to 7PM</p>
+                        <p>Development And Mid Evaluation</p>
+                        <p>Auditorium</p>
+                        <span className='left-container-arrow'></span>
+                    </div>
+                </div>
+                <div className="container right-container">
+                    <img src={logo} alt="" />
+                    <div className="text-box">
+                        <h2>7PM onwards on 20th April - 9AM on 21th April</h2>
+                        <p>Development of the Projects</p>
+                        <p>online mode</p>
+                        <span className='right-container-arrow'></span>
+                    </div>
+                </div>
+                <div className="container left-container">
+                    <img src={logo} alt="" />
+                    <div className="text-box">
+                        <h2>21th April 2024</h2>
+                        <p>9AM to 6PM</p>
+                        <p>Development And Final Evaluation</p>
+                        <p>Auditorium</p>
+                        <span className='left-container-arrow'></span>
+                    </div>
+                </div>
+                <div className="container right-container">
+                    <img src={logo} alt="" />
+                    <div className="text-box">
+                        <h2>21th April 2024</h2>
+                        <p>6PM to 7PM</p>
+                        <p>Announcement of the winners</p>
+                        <p>Auditiorium</p>
+                        <span className='right-container-arrow'></span>
                     </div>
                 </div>
             </div>
+           </div>
         </>
     )
 }

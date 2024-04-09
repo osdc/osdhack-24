@@ -1,32 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .prize{
-    background:#060718;
+    background:rgb(1, 1, 26);
     color:white;
     padding:2% 0;
-    min-height: 80vh;
-    padding: 10vh 0;
 }
 
-.prizeHeading{
+.heading{
     font-size: 3rem;
     text-align: center;
-    /* color: cyan; */
-    font-size: 3rem;
-    padding-top: 10vh;
-    /* padding-bottom: 0; */
-}
-
-@media (max-width: 768px) {
-    .prizeHeading {
-        font-size: 2rem;
-    }
+    font-weight: 600;
 }
 
 .prizecontainer{
-    background:#060718;
-    width:70%;
-    /* padding:1%; */
+    /* background:rgb(2, 2, 43); */
+    width:85%;
+    padding:1%;
     margin:auto;
     margin-top:2%;
     display: flex;
@@ -35,30 +22,17 @@
 }
 
 .prizebox{
-    /* background: #8d8d8d; */
-    color:rgb(255, 255, 255);
-    margin:2rem 3rem;
+    /* background: #00FFF8; */
+    color:cyan;
+    margin:10% 20%;
     height:250px;
     width:250px;
-    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* box-shadow: 5px 5px 20px rgba(195, 189, 189, 0.5); */
+    box-shadow: 5px 5px 20px rgba(195, 189, 189, 0.5);
     cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .prizebox {
-        margin:2rem 0;
-    }
-}
-
-.img{
-    margin: 5rem 0;
-    max-width: 70%;
-    max-height: 50%;
 }
 
 .prizebox:hover img{
@@ -73,21 +47,43 @@ img{
 .position, .price{
     font-size: 1.4rem;
     font-weight: 500;
-    font-family: "Roboto Mono", sans-serif;
-}
-
-.price{
-    color: cyan;
 }
 
 .position{
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    
-    .position, .price {
-        font-size: 1.2rem;
+@media only screen and (max-width:1200px){
+    .prizebox{
+        margin:10% 25%;
     }
 }
 
+@media only screen and (max-width:1000px){
+    .prizebox{
+        margin:10% 23%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .prizebox{
+        margin:10% 15%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .prizebox{
+        margin:10% 10%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .prizebox{
+        margin:10% 17%;
+    }
+}
+
+.prizedistribution{
+    text-align: center;
+    font-size: 2rem;
+}

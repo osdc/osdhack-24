@@ -23,10 +23,18 @@ const Home = () => {
       </div> */}
 
       <Spline className='spline' scene="https://prod.spline.design/B4gEdCxzZMigeDFK/scene.splinecode" onMouseDown={onMouseDown} />
+      
       <div className="text-behind">
         <img className='osdhacklogo' src="/images/osdhack24.png" alt="" />
       </div>
 
+      <div className="jiitlogo">
+        <img className='jiit' src="/images/jiit.png" alt="" />
+      </div>
+      <div className="hbutton">
+        <button><a href="https://discord.gg/dDPzxhWH">Discord Invite</a></button>
+        <button><a href="">Register Now</a></button>
+      </div>
     </div>
   )
 }

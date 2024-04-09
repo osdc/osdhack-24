@@ -1,16 +1,10 @@
-.navbar-fixed{
- padding: 2vh 0;
- background-color: #060718;
-}
 
 .hamburger {
     position: absolute;
     top: 10%;
-    right: 6%;
+    right: 4%;
     display: none;
 }
-
-
 
 .hamburger .line {
     width: 25px;
@@ -23,7 +17,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    background:#060718;
+    background:rgb(1, 1, 26);
     padding:0 3%;
 }
 
@@ -43,21 +37,13 @@
 
 .navBar a {
     color:white;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 1.25rem;
-    margin: 1% 40px;
+    margin: 3% 40px;
     font-weight: 400;
     transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     position: relative;
     z-index:1;
-}
-
-/* .navBar a:nth-child(1){
-    margin-right: 8vw;
-} */
-
-.navBar {
-    padding-right: 8vw;
 }
 
 .navBar .navbar-items  a:hover {
@@ -101,7 +87,7 @@
     }
 
     .navbar-fixed {
-        width: 100vw;
+        /* width: 100vw; */
         height: 50px;
     }
 
