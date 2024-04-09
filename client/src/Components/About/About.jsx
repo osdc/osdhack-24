@@ -11,6 +11,8 @@ const About = () => {
                     <div className="para">
                     OSDHack’24 will be a hybrid hackathon organized by the Open-Source Developers Community of JIIT, Noida. It will be a three-day event scheduled for 19-21 April 2023, focusing on fostering innovation and collaboration among the jaypee university's students only. It will be a 48-hour long congregation of like-minded hackers and tech enthusiasts where participants will brainstorm and build on their ideas. 
                     </div>
+
+                    <div className="para">These two esteemed speakers, Atri Sharma Sir and Shrey Batra Sir, are set to illuminate OSDHack 24 with their unparalleled expertise and captivating insights.</div>
                     {/* <div className="para">
                     The online hackathon, organized in partnership with Unstop, is expected to draw over 450 participants from across India, representing prestigious institutions such as IITs, IIITs, NITs, VIT, TIET, LNMIIT, IGDTUW, and more. Meanwhile, the offline hackathon, managed by the Open-Source Developers Community (OSDC) of Jaypee Institute of Information Technology (JIIT), Noida, will provide an eagerly awaited opportunity for tech enthusiasts and hackers to showcase their skills. 
                     </div> */}
