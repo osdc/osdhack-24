@@ -17,7 +17,7 @@ function Footer() {
             <Link to="/">home</Link>
             <Link to="/cod">code-of-conduct</Link>
             {/* <Link to="/gallery">Gallery</Link> */}
-            <a href="">register</a>
+            <a target="_blank" href="https://forms.gle/JTDosdQ1dwoCRcgu5">register</a>
           </ul>
         </div>
         <div className="footer-info">

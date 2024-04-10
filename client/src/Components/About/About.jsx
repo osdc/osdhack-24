@@ -21,7 +21,7 @@ const About = () => {
                     </div>
 
                     <div className="register">
-                        <a href='' className='registertext'>Register Now</a>
+                        <a target="_blank" href="https://forms.gle/JTDosdQ1dwoCRcgu5" className='registertext'>Register Now</a>
                     </div>
                 </div>
                 <div className="aboutimages">
