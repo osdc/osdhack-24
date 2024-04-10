@@ -7,11 +7,11 @@ const ExploreCard = () => {
     <div className="exploresection">
       <div className="exploreheading">MINI EVENTS</div>
       <div className="explore">
-        <div className="card">
+        {/* <div className="card">
             <div className="content">
               <h2 className="title">CAPTURE THE FLAG</h2>
             </div>
-        </div>
+        </div> */}
 
         <div className="card">
             <div className="content">

@@ -42,7 +42,7 @@ const Prizes = () => {
                 }
             </Carousel>
 
-            <div className="prizedistribution">TRACK PRIZES</div>
+            {/* <div className="prizedistribution">TRACK PRIZES</div>
 
             <Carousel responsive={responsive}>
                 {
@@ -72,7 +72,7 @@ const Prizes = () => {
                         </div>
                     ))
                 }
-            </Carousel>
+            </Carousel> */}
         </div>
     )
 }

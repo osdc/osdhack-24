@@ -7,12 +7,12 @@ const Winningprizes = [
     {
         image:'/images/2.png',
         position:'2ND Prize',
-        price:'50k INR'       
+        price:'50k INR (x2)'       
     },
     {
         image:'/images/3.png',
         position:'3ND Prize',
-        price:'25k INR'       
+        price:'25k INR (x2)'       
     },
 ];
 

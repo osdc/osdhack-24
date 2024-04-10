@@ -12,7 +12,7 @@ const Layout = () => {
             <About />
             <ExploreCard />
             <Timeline />
-            <Faculty/>
+            {/* <Faculty/> */}
             <Prizes/>
         </>
     )

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Spline from '@splinetool/react-spline';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 // import { Link } from 'react-router-dom'
 const Home = () => {
   const navigate = useNavigate();
@@ -32,8 +32,8 @@ const Home = () => {
         <img className='jiit' src="/images/jiit.png" alt="" />
       </div>
       <div className="hbutton">
-        <button><a href="https://discord.gg/dDPzxhWH">Discord Invite</a></button>
-        <button><a href="">Register Now</a></button>
+        <Link to='/brochure'>Code Of Conduct</Link>
+        <a href="">Register Now</a>
       </div>
     </div>
   )

@@ -12,7 +12,7 @@
 
 .codcontent div {
     margin-top: 2%;
-    background-color: rgba(22, 77, 124, 0.5);
+    /* background-color: rgba(22, 77, 124, 0.5); */
     padding:1% 2%;
     border-radius: 5%;
 }
@@ -25,6 +25,28 @@
 
 .codcontent h2 {
     margin: 2% 0;
+}
+
+.brochurebutton{
+    display: flex;
+    justify-content: center;
+    padding:2%;
+}
+
+.brochureButtonDownload{
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding:0.3% 0.5%;
+    transition: all 0.4s ease-in-out;
+}
+
+.brochureButtonDownload a{
+    text-decoration: none;
+    color:black;
+}
+
+.brochureButtonDownload:hover{
+    font-size: 1.6rem;
 }
 
 @media only screen and (max-width:740px) {
@@ -60,4 +82,9 @@
         width: 90%;
         font-size: 1.1rem;
     }
+
+    .brochureButtonDownload{
+        font-size: 1rem;
+    }
 }
+
