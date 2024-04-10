@@ -8,7 +8,7 @@ const Timeline = () => {
            <div className="timeline-heading">TIMELINE</div>
             <div className="timeline">
                 <div className="container left-container">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                     <div className="text-box">
                         <h2>19th April 2024</h2>
                         <p>From 5PM onwards</p>
@@ -18,7 +18,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 <div className="container right-container">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                     <div className="text-box">
                         <h2>19th April 2024</h2>
                         <p>From 6PM onwards</p>
@@ -28,7 +28,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 <div className="container left-container">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                     <div className="text-box">
                         <h2>19th April 2024</h2>
                         <p>6PM to 9PM</p>
@@ -38,7 +38,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 <div className="container right-container">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                     <div className="text-box">
                         <h2>9PM onwards on 19th April - 1PM on 20th April</h2>
                         <p>Development of the Projects</p>
@@ -47,7 +47,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 <div className="container left-container">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                     <div className="text-box">
                         <h2>20th April 2024</h2>
                         <p>1PM to 7PM</p>
@@ -57,7 +57,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 <div className="container right-container">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                     <div className="text-box">
                         <h2>7PM onwards on 20th April - 9AM on 21th April</h2>
                         <p>Development of the Projects</p>
@@ -66,7 +66,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 <div className="container left-container">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                     <div className="text-box">
                         <h2>21th April 2024</h2>
                         <p>9AM to 6PM</p>
@@ -76,7 +76,7 @@ const Timeline = () => {
                     </div>
                 </div>
                 <div className="container right-container">
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                     <div className="text-box">
                         <h2>21th April 2024</h2>
                         <p>6PM to 7PM</p>

@@ -14,10 +14,10 @@ function Footer() {
       <div className="footer-links">
           <h3>Quick Links</h3>
           <ul className='quicklinks'>
-            <Link to="/">Home</Link>
-            <Link to="/team">Team</Link>
+            <Link to="/">home</Link>
+            <Link to="/cod">code-of-conduct</Link>
             {/* <Link to="/gallery">Gallery</Link> */}
-            <a href="">Register</a>
+            <a href="">register</a>
           </ul>
         </div>
         <div className="footer-info">

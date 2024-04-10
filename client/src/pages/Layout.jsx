@@ -10,10 +10,11 @@ const Layout = () => {
         <>
             <Home />
             <About />
-            <ExploreCard />
+            {/* <ExploreCard /> */}
+            <Prizes/>
             <Timeline />
             {/* <Faculty/> */}
-            <Prizes/>
+            
         </>
     )
 }
