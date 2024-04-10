@@ -5,7 +5,7 @@ const Timeline = () => {
         <>
            <div className="timelinesection grid-bg ba-grid anim">
             <div className="inner"></div>
-           <div className="timeline-heading">TIMELINE</div>
+           <div className="timeline-heading">&lt;timeline&gt;</div>
             <div className="timeline">
                 <div className="container left-container">
                     {/* <img src={logo} alt="" /> */}
@@ -73,16 +73,6 @@ const Timeline = () => {
                         <p>Development And Final Evaluation</p>
                         <p>Auditorium</p>
                         <span className='left-container-arrow'></span>
-                    </div>
-                </div>
-                <div className="container right-container">
-                    {/* <img src={logo} alt="" /> */}
-                    <div className="text-box">
-                        <h2>21th April 2024</h2>
-                        <p>6PM to 7PM</p>
-                        <p>Announcement of the winners</p>
-                        <p>Auditiorium</p>
-                        <span className='right-container-arrow'></span>
                     </div>
                 </div>
             </div>

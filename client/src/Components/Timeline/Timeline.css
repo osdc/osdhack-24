@@ -25,7 +25,7 @@
     color:black;
     cursor: pointer;
     border-radius: 5%;
-    background: #4e54c8;
+    /* background: #4e54c8; */
 }
 
 .container p{
@@ -45,12 +45,13 @@
 }
 
 .text-box{
-    background-color: white;
+    /* background-color: white; */
     padding:3%;
     border-top-left-radius:60%;
     border-bottom-right-radius: 30%;
     border-bottom-left-radius: 10%;
     border-top-right-radius: 15%;
+    color:white;
 }
 
 .left-container{
@@ -71,6 +72,7 @@
     border:2px solid transparent;
     border-image:linear-gradient(45deg, #0e1f68, #c40323);
     border-image-slice: 1;
+    
 }
 
 .right-container img{

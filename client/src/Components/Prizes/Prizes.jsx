@@ -27,7 +27,7 @@ const responsive = {
 const Prizes = () => {
     return (
         <div className='prize'>
-            <div className="heading">PRIZES</div>
+            <div className="heading">&lt;prizes&gt;</div>
             <Carousel responsive={responsive}>
                 {
                     Detail.Winningprizes.map((item, index) => (

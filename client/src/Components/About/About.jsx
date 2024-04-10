@@ -6,7 +6,7 @@ const About = () => {
     return (
         <>
             <div className='aboutsection' id="about">
-                <div className="aboutheading">&lt;what is osdhack&gt;</div>
+                <div className="aboutheading">&lt;what is osdhack?&gt;</div>
                 <div className="aboutcontent">
                     <div className="para">
                     OSDHack’24 will be a hybrid hackathon organized by the Open-Source Developers Community of JIIT, Noida. It will be a three-day event scheduled for 19-21 April 2023, focusing on fostering innovation and collaboration among the jaypee university's students only. It will be a 48-hour long congregation of like-minded hackers and tech enthusiasts where participants will brainstorm and build on their ideas. 
