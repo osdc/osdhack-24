@@ -3,7 +3,6 @@ import Footer from './Components/Footer/Footer.jsx';
 import Layout from './pages/Layout.jsx';
 import Register from './pages/Register/Register.jsx';
 import Team from './pages/Team/Team.jsx';
-// import Gallery from './pages/Gallery/Gallery.jsx';
 import Codeofconduct from './pages/Codeofconduct/Codeofconduct.jsx';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
